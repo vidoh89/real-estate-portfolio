@@ -28,7 +28,7 @@ const NavigationDesktop = () => {
           </Link>
           {navigationLinks.map((item)=>(
             <NavigationLink key={item.title} {...item}/>
-          ))};
+          ))}
           <Button padding='1.5rem' backgroundColor="green.300" 
             color="white" fontSize='0.8rem' fontWeight="medium"
           >Create Listing</Button>

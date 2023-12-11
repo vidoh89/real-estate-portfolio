@@ -40,7 +40,7 @@ const NavigationMobile = () =>{
             <MenuList>
             {navigationLinks.map((item)=>(
           <NavigationLink key={item.title} {...item}/>
-        ))};
+        ))}
             </MenuList>
         </Menu>
       </Flex>
