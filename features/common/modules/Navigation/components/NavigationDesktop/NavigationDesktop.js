@@ -26,12 +26,17 @@ const NavigationDesktop = () => {
               </Text>
             </Box>
           </Link>
+          {/* Wrap links inside of Flex tag with following parameters to 
+          clearly seperate the logo from the links */}
+          <Flex gap="12" alignItems="center" fontWeight="medium">
           {navigationLinks.map((item)=>(
             <NavigationLink key={item.title} {...item}/>
           ))}
-          <Button padding='1.5rem' backgroundColor="green.300" 
+            <Button padding='1.5rem' backgroundColor="green.300" 
             color="white" fontSize='0.8rem' fontWeight="medium"
-          >Create Listing</Button>
+          >Create Listing
+            </Button>
+          </Flex>
         </Flex>
       </Box>
     </Box>

@@ -54,6 +54,7 @@ const NavigationLink = ({ title, link, icon }) => {
         // Place MenuItems inside Link>MenuItem context
         // Fixes aesthetics of menu items on smaller screens
       <Link href={link}>
+        {/* convert links into menu items, To add additional links ,do so via the navigation const file */}
         <MenuItem alignItems="center" gap="0.5">
           {icon}
           {title}
