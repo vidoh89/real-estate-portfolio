@@ -1,12 +1,9 @@
-import Footer from "@/features/common/modules/Navigation/components/Footer/Footer";
-import Navigation from "@/features/common/modules/Navigation/components/Navigation";
+import HeroBanner from "@/features/Home/components/HeroBanner/HeroBanner";
+import DefaultLayout from "@/features/Layouts/DefaultLayout";
 
 export default function Home(){
-  return (
-    <>
-    <Navigation/>
-    <Footer/>
-  </>
-
+  return(
+    // DefaultLayout() contains the data for the Navigation bar and Footer
+    <DefaultLayout><HeroBanner/></DefaultLayout>
   )
 }

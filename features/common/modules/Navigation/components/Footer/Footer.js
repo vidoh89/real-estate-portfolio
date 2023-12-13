@@ -65,12 +65,15 @@ const Footer = () =>{
             color="white"
             >
                 {/* Add logo to footer */}
-            <Box>
+            <Box display="flex" gap="2" alignItems="center">
                 <HiHomeModern/>
-                <Text fontSize="xl" fontWeight="black">
+                <Text fontSize="lg" fontWeight="black">
                     Siera Dority
                 </Text>
             </Box>
+                <Text marginTop="1rem" fontSize="xs" textAlign="center">
+                    All rights reserved - Copyright Siera Dority
+                </Text>
             </Box>
         </Box>
     )
