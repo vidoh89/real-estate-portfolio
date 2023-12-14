@@ -49,11 +49,15 @@ const HeroBanner = () =>{
             lineHeight="shorter"
             marginBottom="1.5rem"
             >
-                Download our new <strong>Property Buying Guide</strong> today...
+                Download our new <strong>Property Buying Guide</strong> today<span style={{color:'#86E889'}}>...</span>
              </Text>
+             <Text fontSize={{base:"lg",sm:"2xl"}}>Free PDF with our best secrets for evaluating a property,
+                    calculating profit and so much more!
+                 </Text>
            </Box>
+
         {/* Form section */}
-           <Box width={{base:"100%", sm:"auto"}}><HeroForm/></Box>
+           <Box width={{base:"100%", sm:"auto"}} marginTop={{base:'2rem',sm:'0'}}><HeroForm/></Box>
         </Box>
         </Box>
 
