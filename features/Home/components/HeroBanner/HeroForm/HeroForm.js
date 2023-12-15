@@ -1,4 +1,4 @@
-import { Box, FormControl, Text, Flex, Checkbox, Button } from "@chakra-ui/react";
+import { Box, FormControl, Text, Flex, Checkbox, Button, Input } from "@chakra-ui/react";
 import { useForm } from "react-hook-form";
 const HeroForm = () => {
   //    Destructure use form data
@@ -28,11 +28,12 @@ const HeroForm = () => {
         {/* Add FormControl from chakra ui */}
         {/* Name Input field */}
         <FormControl>
-          <input
+          <Input
             id="name"
             type="text"
             placeholder="Name"
             {...register("name", { required: true })}
+            marginTop='1.3rem'
            
            
          />
@@ -47,11 +48,11 @@ const HeroForm = () => {
             flexDirection={{ base: "column", sm: "row" }}
           >
             {/* Email input field */}
-            <input
+            <Input
               id="email"
               type="email"
               placeholder="Email"
-            
+              marginTop="1.3rem"
               {...register("email", { required: true })}
               
               
@@ -62,12 +63,12 @@ const HeroForm = () => {
               </Text>
             )}
             {/* Input field for Phone number */}
-            <input
+            <Input
             
               id="phone"
               type="text"
               placeholder="Phone Number"
-              marginTop="2rem"
+              marginTop="1.3rem"
               {...register("phone", { required: true })}
             />
             {errors.phone && (

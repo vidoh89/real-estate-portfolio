@@ -21,7 +21,7 @@ const FeaturedProperties = ({featuredProperties})=>{
             paddingX="2rem"
             textAlign="center"
             >
-                A selectionof our featuredProperties
+                A selection of our top properties
 
             </Text>
             <PropertySlider featuredProperties={featuredProperties}/>
