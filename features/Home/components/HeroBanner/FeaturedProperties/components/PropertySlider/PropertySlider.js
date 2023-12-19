@@ -8,7 +8,7 @@ import PropertyCard from "@/features/common/modules/Navigation/components/Proper
 const PropertySlider = ({featuredProperties}) =>{
    
     return(
-        
+         
         // Add image slider ,using Swiper
       <Swiper
       slidesPerView={3}

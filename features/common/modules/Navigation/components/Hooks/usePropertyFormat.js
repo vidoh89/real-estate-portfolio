@@ -1,7 +1,7 @@
-export const usePropertyFormat=()=>{
+export const usePropertyFormat=(property)=>{
     // Import property details from properties.json file
     //Address component
-    const address = property.location.map((item)=>item.name).join(", ");
+    const address = property.location.map((item)=>item.name).join(", ")
     // Cover Photo component
     const coverPhoto = property.coverPhoto.url;
 
@@ -9,10 +9,10 @@ export const usePropertyFormat=()=>{
     const propertyType = `${property.category[0].name},${property.category[1].name}`
 
     // property price converting currency into USD
-    const price = property.price.toLocalString("en-US",
-    {style:"currency",
-    currency:"USD",
-    maximumFractionDigits:0
+    const price = property.price.toLocaleString("en-US",{
+        style:"currency",
+        currency:"USD",
+        maximumFractionDigits:0
     });
     // Property for title
     const title = property.title;
@@ -26,6 +26,7 @@ export const usePropertyFormat=()=>{
     const sqSize= property.area.toFixed(2);
     // Property for externalID
     const externalID= property.externalID;
+
     return {
         address,
         coverPhoto,
@@ -36,6 +37,6 @@ export const usePropertyFormat=()=>{
         baths,
         purpose,
         sqSize,
-        externalId,
+        externalID,
     }
 }

@@ -1,5 +1,6 @@
 import FeaturedProperties from "@/features/Home/components/HeroBanner/FeaturedProperties/FeaturedProperties";
 import HeroBanner from "@/features/Home/components/HeroBanner/HeroBanner";
+import MeetTheTeam from "@/features/Home/components/MeetTheTeam/MeetTheTeam";
 import DefaultLayout from "@/features/Layouts/DefaultLayout";
 
 export default function Home({featuredProperties}){
@@ -10,6 +11,7 @@ export default function Home({featuredProperties}){
     <DefaultLayout>
       <HeroBanner/>
      <FeaturedProperties featuredProperties={featuredProperties}/>
+      <MeetTheTeam/>
       </DefaultLayout>
   );
 };
@@ -22,7 +24,7 @@ export default function Home({featuredProperties}){
   
   // return data located on properties.json
   return {
-    props:{featuredProperties: hits}
+    props:{featuredProperties: hits.slice(0,5)}
    
   };
 
