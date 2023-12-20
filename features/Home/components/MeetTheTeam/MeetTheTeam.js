@@ -35,8 +35,8 @@ const MeetTheTeam= ()=>{
              justifyContent='space-between' 
             gap='1.5rem'>
                 {agents.map((agent)=>(
-                    <div key={agent.name}{...agent}>
-                        <AgentCard key={agent.name} {...agent}/>
+                    <div key={agent.name}{...agent} >
+                        <AgentCard key={agent.name} {...agent} backgroundSize="20px"/>
                     </div>
                     
                 ))}
