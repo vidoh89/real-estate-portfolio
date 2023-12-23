@@ -26,7 +26,21 @@ export const usePropertyFormat=(property)=>{
     const sqSize= property.area.toFixed(2);
     // Property for externalID
     const externalID= property.externalID;
+    // Holds data for photos located in  property.json/also check if the photos are available.
+    const photos = property.photos?.map((photo)=>photo.url)||[];
 
+    //Property description
+    const description = property.description;
+    //Holds data for coverVideos 
+    const coverVideoUrl = property.coverVideo.url
+    //using slice() take the end of the property url ,this will be used to embed video into webpage
+    const coverVideo = coverVideoUrl.slice(coverVideoUrl.length -11);    
+    //Panaroma data, also checks for data availability
+    const panorama = property.panoramas?.length ? property.panoramas[0].url:[];
+    
+    //Holds data for ameneties. Usin the flatMap() reduces the arrays into one
+    const amenities = property.amenities?.flatMap(({amenities})=>amenities).map((item)=>item.text);
+    const furshied = property.furnishingStatus;
     return {
         address,
         coverPhoto,
@@ -38,5 +52,11 @@ export const usePropertyFormat=(property)=>{
         purpose,
         sqSize,
         externalID,
+        photos,
+        description,
+        coverVideo,
+        panorama,
+        amenities,
+        furshied
     }
 }
