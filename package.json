@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vidoh89.github.io/real-estate-portfolio",
+  "homepage":"http://vidoh89.github.io/real-estate-portfolio",
   "name": "realestate-app",
   "version": "0.1.0",
   "private": true,
@@ -7,9 +7,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lint": "next lint"
+  
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
