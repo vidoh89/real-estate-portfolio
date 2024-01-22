@@ -89,7 +89,7 @@
 			"id": 2,
 			"level": 1,
 			"externalID": "4",
-			"name": "Apartments",
+			"name": "Property",
 			"name_l1": "شقق",
 			"name_l2": "Apartments",
 			"slug": "apartments",
@@ -114,7 +114,7 @@
 			"title": null,
 			"orderIndex": 0,
 			"nimaScore": 6.00798409433134,
-			"url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/319179042/3e120c40662d4f02b49c220db8d60f6d",
+			"url":"https://i.ibb.co/M8h4tZG/prop-5frontyard.png",
 			"main": true
 		},
 		"coverVideo": {
@@ -295,7 +295,7 @@
 			"lng": 55.278035
 		},
 		"purpose": "for-sale",
-		"price": 730000.0,
+		"price": "Contact for details",
 		"product": "superhot",
 		"productLabel": "default",
 		"productScore": 0,
@@ -370,7 +370,7 @@
 			"id": 2,
 			"level": 1,
 			"externalID": "4",
-			"name": "Apartments",
+			"name": "Property",
 			"name_l1": "شقق",
 			"name_l2": "Apartments",
 			"slug": "apartments",
@@ -395,7 +395,7 @@
 			"title": null,
 			"orderIndex": 0,
 			"nimaScore": 5.995779120186287,
-			"url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/312251485/a0b6412c53134e1cb9e95fec6120c0ad",
+			"url":"https://i.ibb.co/51GsZ1P/prop-1frontyard.jpg",
 			"main": true
 		},
 		"coverVideo": {
@@ -681,7 +681,7 @@
 			"id": 2,
 			"level": 1,
 			"externalID": "4",
-			"name": "Apartments",
+			"name": "Property",
 			"name_l1": "شقق",
 			"name_l2": "Apartments",
 			"slug": "apartments",
@@ -706,7 +706,7 @@
 			"title": null,
 			"orderIndex": 0,
 			"nimaScore": 9.668657083372182,
-			"url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/297076417/bcfdfba30b0c4705acc1ac1084a67fd4",
+			"url":"https://i.ibb.co/kg5Y23z/prop-2frontyard.jpg",
 			"main": true
 		},
 		"coverVideo": {
@@ -920,7 +920,7 @@
 			"lng": 54.392677
 		},
 		"purpose": "for-sale",
-		"price": 750000.0,
+		"price":"Contact for details",
 		"product": "hot",
 		"productLabel": "default",
 		"productScore": 1,
@@ -1006,7 +1006,7 @@
 			"id": 2,
 			"level": 1,
 			"externalID": "4",
-			"name": "Apartments",
+			"name": "Property",
 			"name_l1": "شقق",
 			"name_l2": "Apartments",
 			"slug": "apartments",
@@ -1031,7 +1031,7 @@
 			"title": null,
 			"orderIndex": 0,
 			"nimaScore": 5.999933062832518,
-			"url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/284437043/9a41d6407675431d97eaa331736b6436",
+			"url":"https://i.ibb.co/DChdbhJ/prop-3backyard.png",
 			"main": true
 		},
 		"coverVideo": {
@@ -1217,7 +1217,7 @@
 			"lng": 55.133048
 		},
 		"purpose": "for-sale",
-		"price": 1700000.0,
+		"price": "Contact for details",
 		"product": "hot",
 		"productLabel": "default",
 		"productScore": 1,
@@ -1292,7 +1292,7 @@
 			"id": 2,
 			"level": 1,
 			"externalID": "4",
-			"name": "Apartments",
+			"name": "Property",
 			"name_l1": "شقق",
 			"name_l2": "Apartments",
 			"slug": "apartments",
@@ -1317,7 +1317,7 @@
 			"title": null,
 			"orderIndex": 0,
 			"nimaScore": 8.868132622779626,
-			"url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/256983125/b6bae752159a49438d9bb227361a3985",
+			"url":"https://i.ibb.co/7r17zSq/prop-4backyard2.png",
 			"main": true
 		},
 		"coverVideo": {
@@ -1543,7 +1543,7 @@
 			"lng": 55.147399902344
 		},
 		"purpose": "for-sale",
-		"price": 4223000.0,
+		"price": "Contact for details",
 		"product": "superhot",
 		"productLabel": "default",
 		"productScore": 0,
@@ -1643,7 +1643,7 @@
 			"title": null,
 			"orderIndex": 0,
 			"nimaScore": 5.999868419660914,
-			"url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/253699801/9080ec042c96428496c1d87abe2cb943",
+			"url": "https://i.ibb.co/7r17zSq/prop-4backyard2.png",
 			"main": true
 		},
 		"coverVideo": {
@@ -3215,7 +3215,7 @@
 			"lng": 55.148014
 		},
 		"purpose": "for-sale",
-		"price": 1450000.0,
+		"price":"Contact for details",
 		"product": "superhot",
 		"productLabel": "default",
 		"productScore": 0,
@@ -3550,7 +3550,7 @@
 			"lng": 55.344219
 		},
 		"purpose": "for-sale",
-		"price": 1300000.0,
+		"price":"Contact for details",
 		"product": "hot",
 		"productLabel": "default",
 		"productScore": 1,

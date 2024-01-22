@@ -1,5 +1,6 @@
 import DefaultLayout from "@/features/Layouts/DefaultLayout/DefaultLayout";
 import PropertyStats from "@/features/Property/PropertyStats/PropertyStats";
+import PropertyMatterPortEmbed from "@/features/Property/components/PropertyThumbnailSlider/PropertyMatterPortEmbed/PropertyMatterPortEmbed";
 import PropertyThumbnailSlider from "@/features/Property/components/PropertyThumbnailSlider/PropertyThumbnailSlider";
 import PropertyYoutube from "@/features/Property/components/PropertyThumbnailSlider/PropertyYoutubeEmbed/PropertyYoutube";
 import { usePropertyFormat } from "@/features/common/modules/Navigation/components/Hooks/usePropertyFormat";
@@ -37,7 +38,7 @@ const PropertySingle = ({ property }) => {
   } = usePropertyFormat(property);
   return (
     <DefaultLayout>
-      <Box backgroundColor="green.200" paddingY="3rem">
+      <Box backgroundColor="white" paddingY="3rem">
         <Grid
           templateColumns="repeat(6,1fr)"
           gap="5"
@@ -56,7 +57,6 @@ const PropertySingle = ({ property }) => {
             </Text>
             <Flex
               fontSize="xl"
-              color="green.600"
               textAlign="center"
               alignItems="center"
               flexDirection={{ base: "column", sm: "row" }}
@@ -109,6 +109,9 @@ const PropertySingle = ({ property }) => {
             {/* Property Youtube component for videos */}
           <PropertyYoutube coverVideo={coverVideo}/>
           </GridItem>
+         <GridItem colSpan={{base:6,sm:3}}>
+          <PropertyMatterPortEmbed panorama={panorama}/>
+         </GridItem>
         </Grid>
       </Box>
     </DefaultLayout>

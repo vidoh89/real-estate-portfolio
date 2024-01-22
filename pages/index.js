@@ -25,6 +25,7 @@ export default function Home({featuredProperties}){
  export async function getStaticProps(){
   // hits holds the static properties data.
   const {hits }= require("@/features/data/properties")
+  const {hits2}= require("@/features/propertydata/property2")
   
   // return data located on properties.json
   return {
